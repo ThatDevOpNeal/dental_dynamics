@@ -17,7 +17,7 @@
 	</Header>
 	<nav>
 		<div class="toggle-nav">
-			<i class="fa fa-bars"></i>
+			<i class="fa fa-bars menu" aria-hidden="true"></i>
 		</div>
 
 		<ul>
@@ -62,6 +62,14 @@
 			</li>
 		</ul>
 	</nav>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(() => {
+			$('.menu').click(() => {
+				$('ul').toggleClass('active');
+			})
+		})
+	</script>
 
 </body>
 

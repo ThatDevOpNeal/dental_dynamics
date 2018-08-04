@@ -23,7 +23,6 @@ img {
 
 header {
 	/* position: relative; */
-	margin-top: 1em;
 }
 
 .header_logo {
@@ -77,6 +76,20 @@ nav ul li a:focus {
 
 @media (max-width: 768px) {
 	.toggle-nav {
+		display: block;
+	}
+
+	nav ul {
+		width: 100%;
+		display: none;
+	}
+	
+	nav ul li {
+		display: block;
+		text-align: center;
+	}
+
+	.active {
 		display: block;
 	}
 }
