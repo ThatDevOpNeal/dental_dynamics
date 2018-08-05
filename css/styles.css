@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 
-body {
+html, body {
 	background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url("./../img/dental_background.jpg");
 	background-size: cover;
 	height: 100vh;
@@ -86,4 +86,60 @@ nav ul li a:focus {
 	.active {
 		display: none;
 	}
+
+	.image_container {
+		max-width: 100%;
+	}
+
+	.image_container img {
+		height: 100%;
+	}
+
+}
+
+.image_container {
+	/* border: 1px solid black; */
+	margin: 0 auto;
+	position: relative;
+	width: 525px;
+	height: 343px;
+}
+
+.image_container.vertical {
+	width: 325px;
+	height: 483px;
+}
+
+.image_container img {
+	object-fit: cover;
+}
+
+.image_container img:not(:first-child) {
+	display: none;
+}
+
+.image_container .btn {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	border: none;
+	border-radius: 25px;
+	bottom: 50%;
+	background: rgba(0, 0, 0, 0.9);
+	color: white;
+	font-size: 20px;
+	outline: none;
+}
+
+#btn-left {
+	float: left;
+}
+
+#btn-right {
+	float: right;
+}
+
+#btn-left:hover,
+#btn-right:hover {
+	box-shadow: 0px 0px 20px 5px gray;
 }
