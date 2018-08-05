@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 	<meta charset="utf-8">
@@ -11,7 +11,7 @@
 </head>
 
 <body>
-	<Header>
+	<header>
 		<img src="img/header.gif" alt="Dental Dynamics Logo Header" class="header_logo">
 		<nav>
 			<div class="toggle-nav">
@@ -64,13 +64,21 @@
 		<script type="text/javascript">
 			$(document).ready(() => {
 				$('.menu').click(() => {
-					$('ul').toggleClass('active');
+					$('ul').toggle();
+					$('.container').toggle();
 				})
 			})
 		</script>
-	</Header>
+	</header>
 
-
+	<div class="container">
+		<footer>
+			<p>Please stop by for a tour. Call us at
+				<em>(847) 329-9801</em>
+			</p>
+			<em>9215 Skokie Blvd. Skokie, IL. 60077</em>
+		</footer>
+	</div>
 </body>
 
 </html>
