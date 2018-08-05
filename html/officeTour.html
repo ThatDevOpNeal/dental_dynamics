@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Office Tour</title>
     <link rel="stylesheet" href="../css/styles.css" type="text/css">
+    <script src="../js/officeTour.js"></script>
 </head>
 
 <body>
@@ -36,14 +37,14 @@
 
         <!-- Portfolio Item 03 -->
         <div class="image_container">
-            <img src="../img/waiting_area_secretary.jpg" alt="Waiting Area Secretary View">
-            <img src="../img/waiting_area.jpg" alt="Waiting Area Seating">
-            <img src="../img/waiting_area_2.jpg" alt="Waiting Area Seated View">
-            <img src="../img/waiting_area_3.jpg" alt="Waiting Area Personal Room">
-            <img src="../img/waiting_area_4.jpg" alt="Waiting Area To Treatment Rooms">
-            <img src="../img/waiting_area_5.jpg" alt="Waiting Area For Children">
-            <button class="btn" id="btn-left">&#10094;</button>
-            <button class="btn" id="btn-right">&#10095;</button>
+            <img class="slides" src="../img/waiting_area_secretary.jpg" alt="Waiting Area Secretary View">
+            <img class="slides" src="../img/waiting_area.jpg" alt="Waiting Area Seating">
+            <img class="slides" src="../img/waiting_area_2.jpg" alt="Waiting Area Seated View">
+            <img class="slides" src="../img/waiting_area_3.jpg" alt="Waiting Area Personal Room">
+            <img class="slides" src="../img/waiting_area_4.jpg" alt="Waiting Area To Treatment Rooms">
+            <img class="slides" src="../img/waiting_area_5.jpg" alt="Waiting Area For Children">
+            <button class="btn" id="btn-left" onclick="buttonClickOffice('slides', -1)">&#10094;</button>
+            <button class="btn" id="btn-right" onclick="buttonClickOffice('slides', 1)">&#10095;</button>
         </div>
 
         <!-- Portfolio Item 04 -->
