@@ -74,11 +74,12 @@ nav ul li a:focus {
     font-size: 150%;
     color: #0000e0;
     display: none;
+	z-index: 1;
 }
 
 @media (max-width: 768px) {
     .toggle-nav {
-        display: block;
+		display: block;
     }
     nav ul {
         width: 100%;
