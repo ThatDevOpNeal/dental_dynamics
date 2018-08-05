@@ -11,6 +11,65 @@
 </head>
 
 <body>
+    <Header>
+        <img src="../img/header.gif" alt="Dental Dynamics Logo Header" class="header_logo">
+        <nav>
+            <div class="toggle-nav">
+                <i class="fa fa-bars menu" aria-hidden="true"></i>
+            </div>
+
+            <ul>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="">About Us</a>
+                </li>
+                <li>
+                    <a href="">Doctors</a>
+                </li>
+                <li>
+                    <a href="./officeTour.html">Office Tour</a>
+                </li>
+                <li>
+                    <a href="">Sterilization Infection Control</a>
+                </li>
+                <li>
+                    <a href="">Technology</a>
+                </li>
+                <li>
+                    <a href="">Bleaching</a>
+                </li>
+                <li>
+                    <a href="">Photos</a>
+                </li>
+                <li>
+                    <a href="">Map</a>
+                </li>
+                <li>
+                    <a href="">Post Op</a>
+                </li>
+                <li>
+                    <a href="">Forms</a>
+                </li>
+                <li>
+                    <a href="">Insurance/Payment</a>
+                </li>
+                <li>
+                    <a href="">Just For Fun</a>
+                </li>
+            </ul>
+        </nav>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="text/javascript">
+            $(document).ready(() => {
+                $('.menu').click(() => {
+                    $('ul').toggleClass('active');
+                })
+            })
+        </script>
+    </Header>
+    
     <h1>Office Tour!</h1>
 
     <!-- Portfolio Item 01 -->
@@ -47,7 +106,8 @@
     </figure>
     <div>
         <p>
-            Our office is designed to make you feel comfortable and at home. From our fireplace in our waiting room to the DVD players in our treatment rooms, your sure to enjoy your visit to the dentist.
+            Our office is designed to make you feel comfortable and at home. From our fireplace in our waiting room to the DVD players
+            in our treatment rooms, your sure to enjoy your visit to the dentist.
         </p>
     </div>
 
