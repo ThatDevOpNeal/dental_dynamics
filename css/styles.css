@@ -2,6 +2,48 @@
     box-sizing: border-box;
 }
 
+/* Fancy Header Font Home Page START */
+
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond|Cardo:400italic);
+.heading-correct-pronounciation {
+    margin: auto;
+    text-align: center;
+    position: relative;
+    font-family: 'Cardo', serif;
+    font-size: 1.25em;
+    font-weight: normal;
+    font-style: italic;
+    letter-spacing: 0.1em;
+    line-height: 2.2em;
+}
+
+.heading-correct-pronounciation em {
+    font-family: 'EB Garamond', serif;
+    font-size: 2.25em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    display: block;
+    font-style: normal;
+    padding-top: 0.1em;
+    text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+}
+
+.heading-correct-pronounciation em::before,
+.heading-correct-pronounciation em::after {
+    content: "§";
+    display: inline-block;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    opacity: 0.2;
+    margin: 0 0.6em;
+    font-size: 0.5em;
+}
+
+/* Fancy Header Font Home Page END */
+
 html,
 body,
 .container {
@@ -67,19 +109,19 @@ nav ul li a:focus {
 }
 
 .toggle-nav {
-	width: 100%;
+    width: 100%;
     padding: 0.5% 1.1%;
     text-align: left;
     box-sizing: border-box;
     font-size: 150%;
     color: #0000e0;
     display: none;
-	z-index: 1;
+    z-index: 1;
 }
 
 @media (max-width: 768px) {
     .toggle-nav {
-		display: inline-block;
+        display: inline-block;
     }
     nav ul {
         width: 100%;
@@ -97,11 +139,10 @@ nav ul li a:focus {
     }
     .image_container img {
         height: 100%;
-	}
-	
-	.container {
-		display: none;
-	}
+    }
+    .container {
+        display: none;
+    }
 }
 
 .image_container {
