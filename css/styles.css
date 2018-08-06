@@ -46,6 +46,15 @@
 
 /* Fancy Header Font Home Page END */
 
+/* Google Maps Styling Start */
+
+#map {
+    height: 400px;
+    width: 80%;
+}
+
+/* Google Maps Styling End */
+
 html,
 body,
 .container {
