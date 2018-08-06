@@ -189,6 +189,10 @@ nav ul li a:focus {
     margin-right: 5%;
 }
 
+.text-left {
+    text-align: left;
+}
+
 /* Controls Mobile..Below */
 .toggle-nav {
     width: 100%;
