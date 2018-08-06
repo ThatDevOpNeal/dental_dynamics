@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Doctor Who?</title>
+    <link rel="stylesheet" href="../css/styles.css" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="../img/header.gif" alt="Dental Dynamics Logo Header" class="header_logo">
+        <nav>
+            <div class="toggle-nav">
+                <i class="fa fa-bars menu" aria-hidden="true"></i>
+            </div>
+
+            <ul class="ul-nav">
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./about.html">About Us</a>
+                </li>
+                <li>
+                    <a>Doctors</a>
+                </li>
+                <li>
+                    <a href="./officeTour.html">Office Tour</a>
+                </li>
+                <li>
+                    <a href="">Sterilization Infection Control</a>
+                </li>
+                <li>
+                    <a href="">Technology</a>
+                </li>
+                <li>
+                    <a href="">Bleaching</a>
+                </li>
+                <li>
+                    <a href="">Photos</a>
+                </li>
+                <li>
+                    <a href="">Map</a>
+                </li>
+                <li>
+                    <a href="">Post Op</a>
+                </li>
+                <li>
+                    <a href="">Forms</a>
+                </li>
+                <li>
+                    <a href="">Insurance/Payment</a>
+                </li>
+                <li>
+                    <a href="">Just For Fun</a>
+                </li>
+            </ul>
+        </nav>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="text/javascript">
+            $(document).ready(() => {
+                $('.menu').click(() => {
+                    $('ul.ul-nav').toggle();
+                    $('.container').toggle();
+                })
+            })
+        </script>
+    </header>
+
+    <div class="container">
+        <h1>Doctors</h1>
+        <h2>Dr. Jon Davidson</h2>
+
+        <footer>
+            <p>Please stop by for a tour. Call us at
+                <em>(847) 329-9801</em>
+            </p>
+            <em>9215 Skokie Blvd. Skokie, IL. 60077</em>
+        </footer>
+    </div>
+</body>
+
+</html>
