@@ -154,6 +154,18 @@ nav ul li a:focus {
     height: 343px;
 }
 
+.image_container#logo {
+    width: 173px;
+    height: 41px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.image_container#tooth {
+    width: 84px;
+    height: 101px;
+}
+
 .image_container.vertical {
     width: 325px;
     height: 483px;
