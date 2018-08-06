@@ -180,6 +180,11 @@ nav ul li a:focus {
     margin-left: 5%;
 }
 
+.doctors-info figcaption {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 /* Controls Mobile..Below */
 .toggle-nav {
     width: 100%;
