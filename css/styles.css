@@ -62,6 +62,7 @@ body,
 footer {
     font-weight: bold;
     font-variant-caps: all-petite-caps;
+    padding-top: 0.5rem;
 }
 
 img {
@@ -203,4 +204,15 @@ nav ul li a:focus {
 #btn-left:hover,
 #btn-right:hover {
     box-shadow: 0px 0px 20px 5px gray;
+}
+
+.about-list {
+    text-align: justify;
+    line-height: 1.7em;
+    width: 90%;
+}
+
+.about-list li {
+    list-style: disc outside none;
+    margin-left: 5%;
 }
