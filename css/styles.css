@@ -93,6 +93,11 @@ img {
     margin-right: auto;
 }
 
+.doctors-img-size {
+    max-height: 180px;
+    max-width: 180px;
+}
+
 .header_logo {
     position: relative;
     top: 0;
