@@ -46,6 +46,20 @@
 
 /* Fancy Header Font Home Page END */
 
+/* Google Maps Styling Start */
+
+#map {
+    height: 75%;
+    margin-left: 3%;
+    margin-right: 3%;
+    z-index: 5;
+    border-style: solid;
+    border-color: #0000e0;
+    
+}
+
+/* Google Maps Styling End */
+
 html,
 body,
 .container {
