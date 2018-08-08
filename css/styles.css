@@ -226,9 +226,15 @@ nav ul li a:focus {
     text-align: left;
     box-sizing: border-box;
     font-size: 150%;
-    color: #0000e0;
+    /* color: #0000e0; */
+    color: red;
     display: none;
     z-index: 1;
+}
+
+.toggle-nav:hover,
+.toggle-nav:focus {
+    color: blueviolet;
 }
 
 @media (max-width: 768px) {
@@ -243,7 +249,7 @@ nav ul li a:focus {
         display: block;
         text-align: center;
     }
-    .active {
+    .ul-nav{
         display: none;
     }
     .image_container {
@@ -253,10 +259,13 @@ nav ul li a:focus {
         height: 100%;
     }
     .container {
-        display: none;
+        display: block;
     }
     .about-list {
         font-size: 85%;
+    }
+    .indented-list h2 {
+        text-align: center;
     }
 }
 /* Controls Mobile..Above */
